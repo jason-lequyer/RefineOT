@@ -1,4 +1,4 @@
-#Copyright 2021, Jason Lequyer and Laurence Pelletier, All rights reserved.
+#Copyright 2025, Jason Lequyer and Laurence Pelletier, All rights reserved.
 #Sinai Health SystemLunenfeld-Tanenbaum Research Institute
 #600 University Avenue, Room 1070
 #Toronto, ON, M5G 1X5, Canada
@@ -15,7 +15,7 @@ import time
 from scipy.sparse import coo_matrix
 import scipy.sparse.csgraph as ssc
 
-
+#N2FDOM
 
 if __name__ == "__main__":
     tsince = 250
