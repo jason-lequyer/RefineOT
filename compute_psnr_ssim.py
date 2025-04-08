@@ -3,7 +3,7 @@ import os
 import sys
 from skimage.metrics import peak_signal_noise_ratio as psnr
 from skimage.metrics import structural_similarity as ssim
-
+#compute_psnr_ssim
 
 if __name__ == "__main__":
     
