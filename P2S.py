@@ -8,7 +8,7 @@ import os
 from tifffile import imread, imwrite
 import argparse
 from collections import namedtuple
-
+#P2s
 
 folder = sys.argv[1]
 outfolder = folder+'_P2S'
