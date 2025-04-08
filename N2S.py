@@ -9,7 +9,7 @@ from torch.nn import MSELoss, L1Loss
 from torch.optim import Adam
 import time
 from pathlib import Path
-
+#N2S
 
 
 if __name__ == "__main__":
