@@ -26,7 +26,7 @@ conda install anaconda::pandas
 conda install anaconda::scipy
 ```
 
-If the installs don't work, removing the specific version may fix this. To do this, remove everything after the equals sign, including the equals sign (e.g. conda install pytorch::pytorch).
+This code has been tested on pytorch=2.4.0, tifffile=2023.2.28, pandas=2.2.2 and scipy=1.13.1. Installation should take about 20 minutes.
 
 # Using debleeder on IMC and other highly multiplexed data
 (Note: The program expects tiff stacks for input IMC data. If your data is saved as a sequence of individual channel files, open ImageJ and go File->Import->Image Sequence, select the folder containing the individual channels and click Open. Once open go Image->Stacks->Images to Stack and then save the resulting image stack, this file should work with RefineOT.)
