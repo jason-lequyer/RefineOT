@@ -68,6 +68,7 @@ python debleed_and_denoise.py IMC_smallcrop_withcsv/IMC_smallcrop.tif 21
 python denoise.py IMC_smallcrop/IMC_smallcrop.tif 21
 ```
 
+This should take under 30 minutes to run on a GPU with >32GB of memory.
 
 # Using RefineOT on your 2D grayscale data
 
