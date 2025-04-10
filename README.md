@@ -113,7 +113,7 @@ Which returns the denoised results in a folder named 'Set12_gaussian25_denoised'
   
 
 
-# Calculate accuracy of RefineOT
+# Calculate accuracy of RefineOT Denoise
 
 To find the PSNR and SSIM between a folder containing denoised results and the corresponding folder containing known ground truths (e.g. Set12_gaussian25_denoised and Set12 if you followed above), we need to install one more conda package:
 
@@ -146,14 +146,5 @@ python P2S.py Microscope_gaussianpoisson
 python N2FDOM.py Microscope_gaussianpoisson
 ```
 
-# Reproducing Figure 1 results
 
-To track the PSNR over time of RefineOT denoise, do the following:
-
-```python
-cd <masterdirectoryname>
-cd Fig1
-python add_gaussian_noise.py 345 25
-python TrackPSNR.py
-```
 
