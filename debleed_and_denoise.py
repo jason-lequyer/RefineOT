@@ -655,7 +655,7 @@ if __name__ == "__main__":
         dom2d = np.clip(dom2d, np.min(inp[oz,:,:]), np.max(inp[oz,:,:]))
         
         print("--- %s seconds ---" % (time.time() - start_time))
-        print(f"Debleeding was completed in {time.time() - start_time} seconds. Starting denoising now, which typically takes singificantly longer, especially if not using a GPU")
+        print(f"Debleeding was completed in {time.time() - start_time} seconds. Starting denoising now, which typically takes singificantly longer, especially if not using a GPU. Consider running the debleed.py script if debleeding is all you are interested in.")
         
         
  
